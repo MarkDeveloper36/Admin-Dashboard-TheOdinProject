@@ -5,30 +5,104 @@ body{
     grid-template-columns: minmax(250px, 1fr) 4fr;
     grid-template-rows: 1fr 4fr;
     font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.no-bold{
+    font-weight: 400;
 }
 
 aside{
     grid-row: 1 / 3;
     background-color: #ff9900;
-    font-weight: 600;
     display: grid;
     justify-content: start;
     align-content: start;
-    gap: 20px
+    gap: 20px;
+    padding: 1rem;
 }
 
-aside > ul{
-    padding-left: 0;
+#logo{
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    align-items: center;
+    justify-items: start;
 }
 
+#logo > h1{
+    margin: 0 auto;
+}
 
-aside > ul > li{
-    list-style: none;
-    margin-top: 1rem;
+#mainNav > p,
+#secondaryNav > p{
+    font-size: 1.2rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: end;
+    gap: 0.75rem;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1.25fr;
+}
+
+header > *{
+    border: 1px solid black;
+}
+
+#searchBarDiv{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 2rem;
+    justify-content: start;
+    align-content: center;
+    gap: 10px;
+    padding: 1rem;
+}
+
+#magnifySVG{
+    align-self: center;
+}
+
+#searchBarDiv > input{
+    border-style: none;
+    border-radius: 20px;
+    background-color: rgb(240, 240, 240);
+}
+
+#userInfo{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#userInfoProfilePicPlaceholder{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background: url(./17838233_5888807.jpg) no-repeat;
+    background-position: -76px -15px;
+    background-size: 12.5rem;
+    border: 1px solid salmon;
+}
+
+#greetingProfilePicPlaceholder{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background: url(./17838233_5888807.jpg) no-repeat;
+    background-position: -76px -15px;
+    background-size: 12.5rem;
+    border: 1px solid salmon;
 }
 
 main{
-    background-color: #f1f1f1
+    background-color: #f1f1f1;
+    box-shadow: inset 0px 1px 5px rgb(0, 0, 0, 0.3);
 }
 
 /* orange: #f7931a
