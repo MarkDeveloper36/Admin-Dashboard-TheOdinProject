@@ -205,5 +205,36 @@ h3 + p{
     grid-template-rows: 1fr auto;
 }
 
+.mainSideDiv{
+    background-color: white;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.3);
+    border-radius: 0.25rem;
+    padding: 5px 10px;
+}
+
+#maintenanceh3{
+    margin-top: 0;
+}
+
+#announcementsDiv{
+    display: grid;
+    gap: 20px;
+}
+
+#mainTopSide{
+    padding: 1rem;
+    font-size: calc(0.6rem + 0.45vh);
+    display: grid;
+}
+
+.lightText{
+    color: rgb(115, 115, 115);
+}
+
+#CommunitShareDayDiv {
+    border-top: 2px solid rgb(240, 240, 240);
+    border-bottom: 2px solid rgb(240, 240, 240);
+}
+
 /* orange: #f7931a
 gray: #4d4d4d */
