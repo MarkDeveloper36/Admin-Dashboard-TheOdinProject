@@ -258,8 +258,7 @@ h3 + p{
     width: 3rem;
     border-radius: 50%;
     background: url(./17838233_5888807.jpg) no-repeat;
-    background-position: -110px -22px;
-    background-size: 18rem;
+    background-size: 16rem;
     border: 1px solid salmon;
 }
 
@@ -268,6 +267,22 @@ h3 + p{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 4fr;
     align-items: end;
+}
+
+#pp1{
+    background-position: -105px -102px;
+}
+
+#pp2{
+    background-position: -100px -20px;
+}
+
+#pp3{
+    background-position: -25px -175px;
+}
+
+#pp4{
+    background-position: -182px -177px;
 }
 
 /* orange: #f7931a
